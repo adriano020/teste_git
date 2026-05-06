@@ -13,7 +13,7 @@ abas.pack(fill="both", expand = True)
 
 #aba1 - Cadastro
 aba1 = Frame(abas)
-abas.add(aba1, text="Cadastro de pacientes")
+abas.add(aba1, text="Cadastro de Pacientes")
 
 #aba2 - Tabela
 aba2 = Frame(abas)
@@ -42,36 +42,36 @@ def cadastrar():
         entry_convenio.delete(0, END)
         entry_contato_urgencia.delete(0, END)
 
-        messagebox.showinfo("Sucesso","Paciente cadastrado!")
+        messagebox.showinfo("Sucesso","Paciente Cadastrado!")
 
 ## Aba Cadastro
 
-Label(aba1, text="nome_completo").pack(pady=7)
+Label(aba1, text="Nome Completo").pack(pady=7)
 entry_nome_completo = Entry(aba1, width=40)
 entry_nome_completo.pack()
 
-Label(aba1, text="cpf").pack(pady=7)
-entry_cpf = Entry(aba1, width=20)
+Label(aba1, text="CPF").pack(pady=7)
+entry_cpf = Entry(aba1, width=30)
 entry_cpf.pack()
 
-Label(aba1, text="Data_Nascimento").pack(pady=7)
-entry_data_nascimento = Entry(aba1, width=20)
+Label(aba1, text="Data Nascimento").pack(pady=7)
+entry_data_nascimento = Entry(aba1, width=30)
 entry_data_nascimento.pack()
 
-Label(aba1, text="telefone").pack(pady=7)
-entry_telefone = Entry(aba1, width=20)
+Label(aba1, text="Telefone").pack(pady=7)
+entry_telefone = Entry(aba1, width=30)
 entry_telefone.pack()
 
-Label(aba1, text="email").pack(pady=7)
+Label(aba1, text="Email").pack(pady=7)
 entry_email = Entry(aba1, width=40)
 entry_email.pack()
 
-Label(aba1, text="convenio").pack(pady=7)
-entry_convenio = Entry(aba1, width=20)
+Label(aba1, text="Convenio / SUS").pack(pady=7)
+entry_convenio = Entry(aba1, width=30)
 entry_convenio.pack()
 
-Label(aba1, text="contato urgencia").pack(pady=7)
-entry_contato_urgencia = Entry(aba1, width=20)
+Label(aba1, text="Contato Urgencia").pack(pady=7)
+entry_contato_urgencia = Entry(aba1, width=30)
 entry_contato_urgencia.pack()
 
 Button(
@@ -79,9 +79,9 @@ Button(
     text="cadastrar",
     bg="green",
     fg="white",
-    width=20,
+    width=30,
     command=cadastrar
-).pack(pady=20)
+).pack(pady=30)
 
 ## Aba tabela
 colunas = ("nome_completo", "cpf", "data_nascimento", "telefone", "email", "convenio", "contato_urgencia")
