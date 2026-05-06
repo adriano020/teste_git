@@ -125,13 +125,14 @@
 
 # ATIVIDADE 07
 
-while True:
-    senha = input("digite a senha:")
+# while True:
+#     senha = input("digite a senha:")
 
-    if senha == "teste":
-        print("acesso liberado")
-    else:
-        print("senha incorreta")    
+#     if senha == "teste":
+#         print("acesso liberado")
+#     else:
+#         print("senha incorreta")    
+
 
 
 
