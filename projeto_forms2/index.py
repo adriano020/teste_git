@@ -84,7 +84,7 @@ Button(
 ).pack(pady=30)
 
 ## Aba tabela
-colunas = ("nome_completo", "cpf", "data_nascimento", "telefone", "email", "convenio", "contato_urgencia")
+colunas = ("Nome Completo", "CPF", "Data Nascimento", "Telefone", "Email", "Convenio", "Contato Urgencia")
 
 tabela = ttk.Treeview(
     aba2,
